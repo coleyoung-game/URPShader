@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Outline
+  m_Name: UI_Outline 1
   m_Shader: {fileID: -6465566751694194690, guid: ea8b242ca22f5734faf5e2e6ac053b16, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,11 +34,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _E_Emission: 5.7
+    - _E_Emission: 83.07
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _range: 1
     m_Colors:
-    - _E_Color: {r: 0.33647794, g: 1, b: 0.34073594, a: 0}
+    - _E_Color: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4444723630309396494
 MonoBehaviour:
