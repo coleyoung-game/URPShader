@@ -26,6 +26,8 @@ public class Gun : MonoBehaviour
     private void GunShot()
     {
         Bullet t_Bullet = Instantiate(m_Bullet.gameObject).GetComponent<Bullet>();
+        t_Bullet.transform.position = transform.position;
+        t_Bullet.transform.rotation = Quaternion.identity;
         t_Bullet.ShotBullet(m_ShotPower);
     }
 }
