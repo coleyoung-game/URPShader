@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 67f89c899538e1a478476fc5e76cd2e3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8e14ac0e081c92e419d772a166b7ebd3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
@@ -57,7 +57,7 @@ Material:
     m_Floats:
     - _Alpha: 0
     - _AlphaClip: 3.02
-    - _Emissive: 36.4
+    - _Emissive: 10
     - _QueueControl: 0
     - _QueueOffset: 0
     - _StepRange: 0.02
