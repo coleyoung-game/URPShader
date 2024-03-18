@@ -22,9 +22,10 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    public void ShotBullet(float _Power)
+    public void ShotBullet(Vector3 _Vec3, float _Power)
     {
-        m_RBody.AddForce(new Vector3(0, 0, _Power), ForceMode.Impulse);
+        _Vec3.z *= _Power;
+        m_RBody.AddForce(_Vec3, ForceMode.Impulse);
     }
 
 
